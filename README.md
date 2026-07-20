@@ -1,5 +1,10 @@
 # System Audit Logs Dashboard
 
+## Overview
+A full-stack System Audit Logs Dashboard designed for security engineers. In large enterprise systems, millions of user actions (logins, deletions, downloads) are generated daily. This tool allows security teams to rapidly investigate these actions to track down data leaks and security breaches. 
+
+It features a high-performance backend capable of ingesting 10,000+ log records in a single payload, and a professional, responsive React interface that safely fetches and displays this data using server-side pagination, searching, and filtering.
+
 ## 1. Setup Instructions
 
 ### Backend
