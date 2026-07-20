@@ -12,7 +12,7 @@ app.use(express.json({ limit: '50mb' }));
 app.use('/api/logs', logRoutes);
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://huntergaming2kkids_db_user:Hunter2002@cluster0.yx8qhqq.mongodb.net/audit_logs_db?appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/audit_logs_db';
 
 mongoose.connect(MONGO_URI)
     .then(() => {
